@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  </head>
+  <body>
+    <div id="main">
+
+      <div class="loader">
+        <div class="wrapper">
+          <h1>STARBUCKS</h1>
+          <div class="progress">
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="page1">
+        <div class="nav">
+          <div class="logo">
+            <img src="https://www.starbucks.in/assets/icon/logo.png" alt="" />
+          </div>
+          <div class="location">
+            <img src="./src/maps-and-flags .png" />
+            <input type="text" placeholder="G 32A, Dainik Bhaskar Mall" />
+          </div>
+          <div class="search">
+            <i class="ri-search-2-line"></i>
+            <input type="text" placeholder="Looking for something specific" />
+          </div>
+          <div class="icons">
+            <div class="icon">
+              <i class="ri-account-circle-fill"></i>
+              <span>Account</span>
+            </div>
+            <div class="icon">
+              <i class="ri-history-line"></i>
+              <span>Order</span>
+            </div>
+            <div class="icon">
+              <i class="ri-heart-2-line"></i>
+              <span>Favourite</span>
+            </div>
+            <div class="icon">
+              <i class="ri-shopping-cart-line"></i>
+              <span>Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="page1-center">
+          <div class="p1-left">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./Blonde-Roast.jpg" alt="Blonde-Roast" />
+                  <div class="text">
+                    <h2>Blonde Roast</h2>
+                    <p>
+                      Blonde Roast coffee beans have a shorter roast time,
+                      allowing for an easy-drinking cup of more mellow flavors.
+                    </p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./Dark-Roast.jpg" alt="" />
+                  <div class="text">
+                    <h2>Medium Roast</h2>
+                    <p>
+                      Medium roast coffee beans are smooth and balanced, with
+                      rich, approachable flavors.
+                    </p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./Medium-Roast.jpg" alt="" />
+                  <div class="text">
+                    <h2>Dark Roast</h2>
+                    <p>
+                      Dark-roasted coffees have a fuller body with robust, bold
+                      taste.
+                    </p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="p1-right">
+            <div class="offer">
+              <h2>25%</h2>
+              <h2>Off</h2>
+            </div>
+            <img src="./Promotion.jpg" alt="" />
+            <div class="overlay">
+              <h2>Tandoori Soya Chaap Wrap</h2>
+              <div class="price">
+                <h3>Rs. 357</h3>
+                <h3>Rs. 268</h3>
+              </div>
+              <div class="inp">
+                <img src="./src/promo tag.jpg" alt="" srcset="" />
+                <input type="text" placeholder="Apply Promo Code" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page2">
+        <div class="p2-heading">
+          <h1>Shop by Category</h1>
+        </div>
+        <div class="category">
+          <div class="p2-left">
+            <div class="merch block">
+              <div class="title">
+                <h2 data-value="Merchandise">Merchandise</h2>
+              </div>
+            </div>
+            <div class="bak-fo">
+              <div class="bakery block">
+                <div class="title">
+                  <h2 data-value="Bakery">Bakery</h2>
+                </div>
+              </div>
+              <div class="food block">
+                <div class="title">
+                  <h2 data-value="Food">Food</h2>
+                </div>
+              </div>
+            </div>
+            <div class="atHome block">
+              <div class="title">
+                <h2 class="white" data-value="At Home Coffee">
+                  At Home Coffee
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="p2-right">
+            <div class="popular block">
+              <div class="left">
+                <div class="title">
+                  <h2 data-value="Popular">Popular</h2>
+                </div>
+              </div>
+              <div class="right"></div>
+            </div>
+            <div class="icof">
+              <div class="icedTea block">
+                <div class="title">
+                  <h2 data-value="iced Tea">Iced Tea</h2>
+                </div>
+              </div>
+              <div class="coffees block">
+                <div class="title">
+                  <h2 data-value="Coffees">Coffees</h2>
+                </div>
+              </div>
+            </div>
+            <div class="frapdrin">
+              <div class="frappocino block">
+                <div class="title">
+                  <h2 data-value="Frappocino">Frappocino</h2>
+                </div>
+              </div>
+              <div class="drink block">
+                <div class="title">
+                  <h2 data-value="Drink">Drink</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page3">
+        <div class="gift-card">
+          <div class="left">
+            <div class="title">
+              <h2 data-value="Gift Cards">Gift Cards</h2>
+            </div>
+            <p>
+              Get a free digital starbucks card when you join starbucks rewards,
+              or register a gift card you already have.
+            </p>
+            <div class="btns">
+              <div class="btn">Add or Reload</div>
+              <div class="btn">Check Balance</div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="imgcol">
+              <div class="colom1">
+                <img src="./src/Gift-card-8.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-9.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-10.webp" alt="" srcset="" />
+              </div>
+              <div class="colom1">
+                <img src="./src/Gift-card-8.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-9.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-10.webp" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="imgcol">
+              <div class="colom2">
+                <img src="./src/Gift-card-5.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-6.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-7.webp" alt="" srcset="" />
+              </div>
+              <div class="colom2">
+                <img src="./src/Gift-card-5.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-6.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-7.webp" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="imgcol">
+              <div class="colom3">
+                <img src="./src/Gift-card-1.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-2.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-3.webp" alt="" srcset="" />
+              </div>
+              <div class="colom3">
+                <img src="./src/Gift-card-1.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-2.webp" alt="" srcset="" />
+                <img src="./src/Gift-card-3.webp" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="popularity">
+          <h1>Popular on starbucks</h1>
+          <div class="popular-cards">
+            <!-- <div class="popular-card">
+                    <div class="innerPopular">
+                        <div class="innerThing">
+                            <div class="popular-tag">
+                                <h4>Popular</h4>
+                                <i class="ri-trophy-line"></i>
+                            </div>
+                            <i onclick="redHeart(this);" class="ri-heart-line"></i>
+                        </div>
+                        <img src="./src/product-1.webp" alt="">
+                    </div>
+                    <div class="bottomPopular">
+                        <h4>Apple crisp macchiato</h4>
+                        <div class="bottomKcal">
+                            <p>SHORT (237ml)</p>
+                            <p>(162 kcal)</p>
+                        </div>
+                    </div>
+                    <div class="bottom-circ">
+                        <h2>Rs. 362</h2>
+                        <span onclick="addToCart(this);"><i class="ri-add-line"></i></span>
+                    </div>
+                </div> -->
+          </div>
+        </div>
+      </div>
+      <div id="page4">
+        <div class="track block">
+          <div class="track-left">
+            <h2>Track the path of your coffee</h2>
+            <p>
+              Learn More About the people and places behind each coffee bag of
+              starbucks
+            </p>
+            <div class="button">Explore Now</div>
+          </div>
+          <div class="track-right">
+            <img src="./src/tracker.webp" alt="" srcset="" />
+          </div>
+        </div>
+        <div class="our-app">
+          <div class="app-left"></div>
+          <div class="app-right">
+            <h2>See More Through Our Official App</h2>
+            <p>
+              Find our application and download it either through App Store or
+              Google Play, you can make orders, see your deliveries on the way
+              and much more.
+            </p>
+            <div class="dwnld"></div>
+          </div>
+        </div>
+      </div>
+      <div id="page5">
+        <div class="about">
+          <div class="abt-left">
+            <div class="left-top">
+              <h1>About Us</h1>
+              <p>
+                Every day, we go to work hoping to do two things: share great
+                coffee with our friends and help make the world a little better.
+                It was true when the first Starbucks opened in 1971, and it’s
+                just as true today.
+              </p>
+              <div class="btn">Learn More</div>
+            </div>
+            <div class="left-bottom">
+              <img src="./Blonde-Roast.jpg" alt="" />
+            </div>
+          </div>
+          <div class="abt-right">
+            <div class="right-top">
+              <img src="./Medium-Roast.jpg" alt="" />
+            </div>
+            <div class="right-bottom">
+              <img src="./Dark-Roast.jpg" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page6">
+        <div class="header">
+          <div>
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/022/636/379/non_2x/starbucks-logo-starbucks-icon-transparent-free-png.png"
+              alt="Starbucks Logo"
+            />
+          </div>
+        </div>
+
+        <h1>STARBUCKS</h1>
+
+        <div class="content">
+          <div>
+            <h3>About Us</h3>
+            <p>Our Coffee</p>
+            <p>Starbucks Archive</p>
+            <p>Customer Service</p>
+            <p>Contact us</p>
+          </div>
+          <div>
+            <h3>For Business Partners</h3>
+            <p>Landlord support</p>
+            <p>Suppliers</p>
+            <p>Corporate Gift Card Sales</p>
+            <p>Office and Foodservice Coffee</p>
+          </div>
+          <div>
+            <h3>Quick Links</h3>
+            <p>Careers</p>
+            <p>Season's Gifting</p>
+            <p>FAQs</p>
+            <p>Delivery</p>
+          </div>
+          <div>
+            <h3>Order and Pick Up</h3>
+            <p>Order on the App</p>
+            <p>Order on the Web</p>
+            <p>Order and Pick Up Options</p>
+            <p>Explore and Find Coffee for Home</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="social-icons">
+            <a href="https://www.spotify.com" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
+                alt="Spotify"
+            /></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg"
+                alt="Twitter"
+            /></a>
+            <a href="https://www.youtube.com" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+                alt="YouTube"
+            /></a>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/16/Facebook-icon-1.png"
+                alt="Facebook"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                alt="Instagram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
